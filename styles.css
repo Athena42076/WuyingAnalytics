@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    padding-top: 50px;  /* Add padding to the body to prevent content from hiding behind the nav bar */
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;  /* Fix position */
+    top: 0;  /* At the top */
+    width: 100%;  /* Full width */
+    z-index: 10;  /* Ensure the nav bar stays on top */
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+p {
+    color: #666;
+    padding: 0 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
