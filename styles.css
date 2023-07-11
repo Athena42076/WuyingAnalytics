@@ -27,9 +27,12 @@ p {
 
 /* Style the nav and its links */
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background: #f2f2f2;
     padding: 10px;
-    margin-bottom: 20px;
     text-align: center;
 }
 
