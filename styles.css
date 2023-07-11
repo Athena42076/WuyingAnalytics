@@ -1,48 +1,49 @@
-/* Reset margins and paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Set a font for the whole page */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    padding-top: 60px; 
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     color: #333;
-    padding: 20px;
-    padding-top: 60px;
+    line-height: 1.6em;
 }
 
-/* Style the h1 tag */
-h1 {
-    color: #444;
-    margin-bottom: 20px;
+h1, h2, h3 {
+    color: #006699;
 }
 
-/* Style the p tag */
-p {
-    margin-bottom: 20px;
-    font-size: 18px;
-}
-
-/* Style the nav and its links */
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #f2f2f2;
-    padding: 10px;
+    background: #333;
+    color: #fff;
+    list-style: none;
     text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1; /* Stay on top */
 }
 
 nav a {
-    margin: 0 10px;
+    color: #fff;
     text-decoration: none;
-    color: #333;
+    padding: 0 15px;
+    transition: color 0.5s;
 }
 
 nav a:hover {
-    color: #666;
+    color: #7abaff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
